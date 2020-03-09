@@ -2,18 +2,19 @@
 
 namespace App\Providers;
 
+use App\Billing\PaymentGateway;
 use Illuminate\Support\ServiceProvider;
 
-class AppServiceProvider extends ServiceProvider
-{
+class AppServiceProvider extends ServiceProvider {
     /**
      * Register any application services.
      *
      * @return void
      */
-    public function register()
-    {
-        //
+    public function register() {
+        $this->app->bind(PaymentGateway::class, function ($app) {
+            return new PaymentGateway("ir");
+        });
     }
 
     /**
@@ -21,8 +22,7 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
-    {
+    public function boot() {
         //
     }
 }
