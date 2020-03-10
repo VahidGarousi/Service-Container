@@ -21,8 +21,10 @@ Servicer container is one of the most powerful tools for managing class dependen
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Read My Articles On - [7Learn.com]((https://7earn.com))
+## Read My Articles
 - **[My Articles](https://7learn.com/author/VahidGarousi1)**
+- **[My Resume](http://vahidgarousi.ir/)**
+- **[My Personal Blog](http://vahidgarousi.ir/blog/)**
 ## 7Learn Topcis
 
 - **[7Learn.com](https://7learn.com/)**
